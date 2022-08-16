@@ -1,0 +1,92 @@
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+    font-weight: 400;
+    background: linear-gradient(rgb(192, 190, 187), rgb(192, 192, 192));
+}
+header{
+    background-color: rgba(35, 64, 102, 0.596);
+
+}
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.resp{
+    margin: 0 auto;
+    padding: 0 auto;
+    justify-content: center;
+}
+.container{
+    width: 80%;
+    background-color: ghostwhite;
+    position: relative;
+}
+.logo{
+    font-size: 20px;
+    float: left;
+    margin:  auto;
+    padding: 15px 15px;
+    color: gray;
+} 
+.logo a{
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 20px;
+    font-weight: bold;
+}
+.logo a:hover{
+    color: blue;
+}
+.logo span{
+    color:rgb(160, 52, 57);
+
+}
+nav ul{
+    float: right;
+}
+nav li{
+    display: inline-block;
+    margin-left: 40px;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(87, 70, 70)
+}
+nav a:hover{
+    color: darkred;
+}
+main{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vh;
+    height: 32%;
+    padding: 15%;
+}
+.cont{
+    width: 600px;
+    max-width: 600px;
+    background-color: antiquewhite;
+    padding: 25px 45px 10px 45px;
+}
+.cont form{
+    padding: 30 0 0 0;
+}
+.cont form div{
+    display: flex;
+    margin: 32px 0;
+}
+.cont form textarea {
+    width: 100%;
+    height:80px
+}
+.cont form input{
+    display: block;
+    height: 100%;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid blueviolet;
+}
